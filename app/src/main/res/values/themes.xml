@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.HQVerse" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/hq_ink</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.HQVerse.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/hq_ink</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_mark</item>
+        <item name="postSplashScreenTheme">@style/Theme.HQVerse</item>
+    </style>
+</resources>
